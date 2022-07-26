@@ -34,13 +34,13 @@ Following steps were taken to prepare data for the modeling stage:
 
 2- Individual values for each categorical fields were examined to ensure they have proper variation for the given field and also see if there are benefits to combine some of the values to reduce unnecessary sparcity and increase variation for each field.
 
-3- Co-linearity among individual fields were looked at to ensure fields are not highly inter-connected to each other.
+3- Correlation among individual fields were looked at to ensure fields are not highly inter-connected to each other.
 
 4- Data were randomly divided into train and test sets. Train set was used to tune and train models and test set was served as independent validation set to check generalization performance of best model.
 
 5- Both train and test sets were normalized. 
 
-6- Different varieties of mL models were examined using the PyCaret package and found that Gradient Boosting classifier has the best performance followed by lightGBM and Random Forest which are all tree-based techniques. This is kind of expected given data is sparse.
+6- Different varieties of ML models were examined using the PyCaret package and found that Gradient Boosting classifier has the best performance followed by lightGBM and Random Forest which are all tree-based techniques. This is kind of expected given data is sparse.
 
 7- Calibration curve was plotted to confirm predictive power is appropriate and label imbalance has not much effect on predictive power of the model.
 
@@ -53,6 +53,7 @@ Following steps were taken to prepare data for the modeling stage:
 ## ML Pipeline
 
 Here is a diagram summarizing ML modeling pipeline:
+
 
 
 ## Model Deployment
