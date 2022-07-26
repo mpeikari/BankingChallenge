@@ -53,7 +53,7 @@ Following steps were taken to prepare data for the modeling stage:
 ## ML Pipeline
 
 Here is a diagram summarizing ML modeling pipeline:
-
+![alt text](https://github.com/mpeikari/BankingChallenge/blob/main/ML%20Pipeline.png)
 
 
 ## Model Deployment
